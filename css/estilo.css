@@ -10,7 +10,7 @@ body{
 }
 /*----Layout-----*/
 #cabecalho{
-    background: rgb(13, 107, 76);
+    background: #0d6b4c;
     padding: 15px;
     text-align: center;
 
@@ -38,6 +38,47 @@ body{
     padding: 20px;
     margin-bottom: 20px;
     background: white;
+}
+.post-programa{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+
+}
+.post-programa img{
+    width: 150px;
+}
+.post-programa p, .post-programa a{
+    width: 400px;  
+    float: left;  
+    margin-right: 25px;
+}
+.post-informatica{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+    text-align: center;
+}
+.post-informatica p{
+    text-align: justify;
+    padding: 5px;
+}
+.post-eletronicos{
+    padding: 20px;
+    background: white;
+    text-align: center;
+    border: 1px solid red;
+    margin: 0px auto 20px 200px;
+}
+.post-eletronicos p{
+    text-align: justify;
+    padding: 5px;
+}
+#rodape-eletronicos{
+    clear: both;
+    text-align: center;
+    background: #CCC;
+    padding: 15px;
 }
 #rodape{
     clear: both;
@@ -85,7 +126,7 @@ h1{
 
 }
 h2{
-    color: rgb(13, 107, 76);
+    color: #0d6b4c;
 }
 .data-artigo{
     font-size: 0.8em;
@@ -100,6 +141,7 @@ h2{
 h3{
     color: rgb(13, 107, 76);
     background: #CCC;
+    margin-bottom: 3px;
     padding: 5px;
 }
 .txt-lateral{
