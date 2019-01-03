@@ -1,0 +1,108 @@
+/*Limpar formatações Padrões*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-size: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #e6e6e6;
+}
+/*----Layout-----*/
+#cabecalho{
+    background: rgb(13, 107, 76);
+    padding: 15px;
+    text-align: center;
+
+}
+#titulo-blog, #menu{
+    padding: 10px;
+
+}
+#conteudo{
+    width: 920px;
+    margin: 0px auto;
+    padding: 15px;
+}
+#artigo, #menu-lateral{
+    float: right;
+}
+#artigo{
+    width: 660px;
+    float: left;
+}
+#menu-lateral{
+    width: 240px;
+}
+.post{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+#rodape{
+    clear: both;
+    text-align: center;
+    background: #CCC;
+    padding: 15px;
+}
+.conteudo-lateral{
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.artigo-lateral{
+    border-bottom: 1px solid cadetblue
+}
+/*----Formatações do Menu-----*/
+a{
+    text-decoration: none;
+}
+a:link, a:visited{
+    color: rgb(13, 107, 76);
+
+}
+a:hover{
+    text-decoration: underline;
+}
+#cabecalho a:link, #cabecalho a:visited{
+    color: white;
+    padding: 10px 8px;
+}
+#cabecalho a:hover{
+    color:rgb(13, 107, 76);
+    background: white;
+    text-decoration: none;
+}
+.conteudo-lateral a{
+    display: block;
+    padding: 3px;
+}
+
+/*----Formatações em Geral ----*/
+h1{
+    color: #948f8f;
+    font-size: 2.5em;
+
+}
+h2{
+    color: rgb(13, 107, 76);
+}
+.data-artigo{
+    font-size: 0.8em;
+    border-bottom: 1px solid #dbd3d3;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+.branco{
+    color: white;
+}
+h3{
+    color: rgb(13, 107, 76);
+    background: #CCC;
+    padding: 5px;
+}
+.txt-lateral{
+    font-size: 0.8em;
+    padding: 5px;
+}
